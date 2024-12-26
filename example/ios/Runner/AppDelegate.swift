@@ -4,7 +4,7 @@ import PushKit
 import CallKit
 import flutter_voip_push_notification
 
-@UIApplicationMain
+@main
 @objc class AppDelegate: FlutterAppDelegate, PKPushRegistryDelegate {
     
     override func application(
